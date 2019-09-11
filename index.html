@@ -1,39 +1,38 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Matching Game</title>
+    <title>Meomry Game</title>
     <meta name="description" content="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+        integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
 
     <div class="container">
         <header>
-            <h1>Matching Game</h1>
+            <h1>Memory Game</h1>
         </header>
 
         <section class="score-panel">
-        	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        	</ul>
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
 
-        	<span class="moves">3</span> Moves
-
-            <div class="timer">0 min 0 sec</div>
+            <span class="moves">3</span> Moves
+            <span class="far fa-clock"></span>
+            <span class="timer">0 min 0 sec</span>
             <div class="restart">
                 <i class="fa fa-repeat"></i>
-        	</div>
+            </div>
         </section>
-
-        
-        <div class="vertical-center" id="winningPage">
-            <h2 class="text-center">congrats you have won with <span class="moves">0</span> Moves </h2>
-        </div>
 
         <ul class="deck">
         </ul>
@@ -41,4 +40,5 @@
 
     <script src="js/app.js"></script>
 </body>
+
 </html>
