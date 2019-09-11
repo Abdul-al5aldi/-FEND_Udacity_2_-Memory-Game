@@ -171,9 +171,9 @@ function allMatched() {
     setTimeout(function () {
 
         const wantToRestart = window.confirm(
-            "Congratulations, you have made it!" + "\n" + "You took " + getElapsedTime() + " seconds, " + "\n" + "Your rate is " +
+            "Awesome, you did it!" + "\n" + "Your time is " + getElapsedTime() + " seconds. " + "\n" + "Your rate is " +
             (document.getElementsByClassName('fa-star').length - document.getElementsByClassName('fa-star-o').length) +
-            " / " + document.getElementsByClassName('fa-star').length + "\n" + "To restart the game press OK"
+            " / " + document.getElementsByClassName('fa-star').length + "\n" + "Press OK to replay..."
         );
         if (wantToRestart) window.location.reload();
         else stop = true;
